@@ -1,6 +1,9 @@
 resources:
-  - ../../base
+- ../../base
 
 images:
-  - name: openlabfree/mynginx
-    newTag: "latest"
+- name: openlabfree/mynginx
+  newName: openlabfree/mynginx
+  newTag: f5a56c9
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
