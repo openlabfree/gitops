@@ -3,4 +3,4 @@ resources:
 
 images:
   - name: openlabfree/mynginx
-    newTag: "latest"  # will be overridden by Jenkins
+    newTag: "latest"
