@@ -1,0 +1,6 @@
+resources:
+  - ../../base
+
+images:
+  - name: openlabfree/mynginx
+    newTag: 3  # will be overridden by Jenkins
